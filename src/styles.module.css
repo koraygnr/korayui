@@ -1,0 +1,75 @@
+button {
+  margin: 5px;
+}
+
+.primary {
+  border: none;
+  padding: 12px 18px;
+  background-color: #6D9886;
+  color: white;
+  font-size: 0.8em;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.primary:hover {
+  background-color: #6d9886e1;
+}
+
+.default {
+  border: none;
+  padding: 12px 18px;
+  background-color: #F7F7F7;
+  color: #393E46;
+  font-size: 0.8em;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.default:hover {
+  background-color: #dbdbdb;
+}
+
+.dashed {
+  border: 1px dashed #393E46;
+  padding: 12px 18px;
+  background-color: white;
+  color: #393E46;
+  font-size: 0.8em;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.dashed:hover {
+  background-color: #ebebeb;
+}
+
+.text {
+  border: none;
+  padding: 12px 18px;
+  background-color: white;
+  color: #393E46;
+  font-size: 0.8em;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.text:hover {
+  color: #393e46da;
+
+}
+
+.link {
+  border: none;
+  padding: 12px 18px;
+  background-color: white;
+  color: #6D9886;
+  font-size: 0.8em;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.link:hover {
+  color: #5d8373;
+
+}
