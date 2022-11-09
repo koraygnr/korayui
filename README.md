@@ -2,6 +2,9 @@
 
 > Patika.dev npm package publishing task
 
+![Preview](https://i.hizliresim.com/m3xkbi2.png)
+
+
 [![NPM](https://img.shields.io/npm/v/korayui.svg)](https://www.npmjs.com/package/korayui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
@@ -13,15 +16,22 @@ npm install --save korayui
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'korayui'
+import { Button } from 'korayui'
 import 'korayui/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = ( ) => {
+  return (
+    <>
+      <Button type="primary">Primary Button</Button>
+      <Button type="default">Default Button</Button>
+      <Button type="dashed">Dashed Button</Button>
+      <Button type="text">Text Button</Button>
+      <Button type="link">Link Button</Button>
+    </>
+  )
+  
 }
 ```
 
